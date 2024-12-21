@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.background-color {
+    background-color: #1e2022
+}
+
+.nav-btns {
+    background-color: #1e2022; 
+    border-color: #1e2022;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: x-large;
+}
+
+.nav-btns:hover {
+    background-color: #43474d  ;
+    border-color: #282c31;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large; 
+}
+
+.logo-size {
+    width: 100px; 
+    height: 100px; 
+}
