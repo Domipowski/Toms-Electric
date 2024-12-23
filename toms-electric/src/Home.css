@@ -11,7 +11,18 @@ h1 {
     background-color: #1e2022; 
 }
 
+.relative {
+    position: relative; 
+}
+
 /* NavBar */
+
+.nav-bar {
+    position: sticky; 
+    background-color: #1e2022; 
+    top: 0; 
+    z-index: 1000;
+}
 
 .nav-btns {
     background-color: #1e2022; 
@@ -39,7 +50,7 @@ h1 {
     object-position: center;
 }
 
-/* Mobile View */
+/* Mobile View (Image) */
 @media (max-width: 464px) {
     .background-image {
         height: 30vh; 
@@ -47,53 +58,126 @@ h1 {
     }
 }
 
-.carousel-title {
+.background-darkener {
     position: absolute; 
-    top: 30%; 
-    left: 50%; 
-    transform: translate(-50%); 
-    color: white; 
-    font-size: 4rem; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
-    z-index: 1; 
-    padding-bottom: 10px; /* Add some space between title and the line */
-    border-bottom: 2px solid white; /* Create a white line beneath the title */
-    text-align: center;
-}
-
-.carousel-text {
-    position: absolute; 
-    top: 45%; 
-    left: 50%; 
-    transform: translate(-50%); 
-    color: white; 
-    font-size: 1.5rem; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
-    z-index: 1; 
-    padding-top: 20px; 
-    text-align: center;
-}
-
-.carousel-overlay {
-    position: absolute; /* Position the overlay inside the carousel item */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
-    z-index: 0; /* Put the overlay below the text */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0; 
 }
 
+/* Carousel */
+.carousel-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white;
+    z-index: 1;
+}
+
+.carousel-title {
+    color: white; 
+    font-size: 3.85rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+}
+
+.carousel-line {
+    width: 100%; 
+    height: 2px; 
+    background-color: white; 
+    margin: 10px auto; 
+    border: none; 
+}
+
+.carousel-text {
+    color: white; 
+    font-size: 1.5rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+}
+
+.carousel-btn {
+    margin-top: 20px;
+}
+
+/* Mobile View (Text) */
 @media (max-width: 464px) {
     .carousel-title {
-        font-size: 2rem; /* Smaller font size for mobile */
-        top: 5%; /* Adjust the vertical position */
-        padding-bottom: 15px; /* Reduce spacing */
+        font-size: 1.6rem; 
+        padding-top: 15px; 
     }
 
     .carousel-text {
-        font-size: 1.2rem; /* Smaller font size for mobile */
-        top: 45%; /* Adjust the vertical position */
-        padding-top: 20px; /* Reduce spacing */
+        display: none; 
     }
+
+    .carousel-line {
+        display: none; 
+    }
+
+    .carousel-btn {
+        margin-top: 15px;
+    }
+}
+
+/* Contact Info */
+
+.contact-name {
+    color: white; 
+}
+
+.contact-info {
+    color: white; 
+}
+
+.cell-one {
+    border-right: 2px solid #f9c307; /* Bottom border */
+}
+
+.cell-two {
+    border-left: 2px solid #f9c307; /* Top border */
+}
+
+@Media (max-width: 464px) {
+    .cell-one {
+        border-bottom: 4px solid #f9c307; /* Bottom border */
+        border-right: 2px solid #1e2022; /* Bottom border */
+        width: 85%; 
+        margin-bottom: 10px; 
+        padding-bottom: 10px; 
+    }
+    
+    .cell-two {
+        margin-top: 10px;
+    }
+}
+
+/* HomeAbout */
+
+.about-title {
+    position: relative; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large; 
+    color: white; 
+}
+
+.about-body {
+    position: relative; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large; 
+    color: white; 
+}
+
+.about-background {
+    position: relative; 
+    background-image: url('/public/kitchen_lights.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Adjust based on your needs */
+    width: 100%;
 }

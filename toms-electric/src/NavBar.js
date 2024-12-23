@@ -5,7 +5,7 @@ import { Button, Container, Row, Col } from 'reactstrap';
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="text-white py-4 background-color">
+      <div className="text-white py-4 nav-bar">
         <Container>
           <Row className="align-items-center justify-content-center">
             
