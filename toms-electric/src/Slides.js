@@ -1,8 +1,9 @@
-import React from 'react'; import Carousel from "react-multi-carousel";// https://www.npmjs.com/package/react-multi-carousel?activeTab=readme 
+import React from 'react'; 
+import Carousel from "react-multi-carousel";// https://www.npmjs.com/package/react-multi-carousel?activeTab=readme 
 import "react-multi-carousel/lib/styles.css"; 
 import { Button } from 'reactstrap';
 
-class Lights extends React.Component {
+class Slides extends React.Component {
     render() {
         const responsive = {
             desktop: {
@@ -99,4 +100,4 @@ class Lights extends React.Component {
     }
 }
 
-export default Lights; 
+export default Slides; 

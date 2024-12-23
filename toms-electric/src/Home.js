@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar'; 
-import Lights from './Lights'; 
+import Slides from './Slides'; 
 import ContactInfo from './ContactInfo'; 
 import HomeAbout from './HomeAbout'; 
 
@@ -11,7 +11,7 @@ class Home extends React.Component {
       <div className="relative">
         <NavBar/>
 
-        <Lights/>
+        <Slides/>
 
         <ContactInfo/>
 
