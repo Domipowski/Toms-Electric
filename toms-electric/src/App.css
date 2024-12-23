@@ -136,17 +136,17 @@ h1 {
 }
 
 .cell-one {
-    border-right: 2px solid #f9c307; /* Bottom border */
+    border-right: 2px solid #f9c307; 
 }
 
 .cell-two {
-    border-left: 2px solid #f9c307; /* Top border */
+    border-left: 2px solid #f9c307; 
 }
 
-@Media (max-width: 464px) {
+@Media (max-width: 769px) {
     .cell-one {
-        border-bottom: 4px solid #f9c307; /* Bottom border */
-        border-right: 2px solid #1e2022; /* Bottom border */
+        border-bottom: 4px solid #f9c307; 
+        border-right: 2px solid #1e2022; 
         width: 85%; 
         margin-bottom: 10px; 
         padding-bottom: 10px; 
@@ -154,6 +154,7 @@ h1 {
     
     .cell-two {
         margin-top: 10px;
+        border-left: 2px solid #1e2022; 
     }
 }
 
