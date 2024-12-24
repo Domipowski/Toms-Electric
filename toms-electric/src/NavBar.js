@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'reactstrap';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function NavBar() {
   let navigate = useNavigate();
@@ -12,8 +12,8 @@ function NavBar() {
           
           {/* Logo */}
           <Col xs="12" md="4" className="d-flex align-items-center justify-content-center mb-3 mb-md-0">
-            <img src="/logo_only.png" alt="Tom's Electric Logo" className="logo-size" />
-            <div>
+            <img src="/logo_only.png" alt="Tom's Electric Logo" className="logo-size clickable" onClick={() => navigate("/home")}/>
+            <div className="clickable" onClick={() => navigate("/home")}>
               <h1 className="mb-0">Tom's</h1>
               <h1 className="mb-0">Electric</h1>
               <h1 className="mb-0">inc.</h1>
