@@ -19,6 +19,10 @@ h1 {
     position: relative; 
 }
 
+.block {
+    display: block; 
+}
+
 /* NavBar */
 
 .nav-bar {
@@ -126,7 +130,7 @@ h1 {
     }
 
     .carousel-btn {
-        margin-top: 15px;
+        margin-top: 15px; 
     }
 }
 
@@ -244,4 +248,10 @@ h1 {
 .submit-btn {
     background-color: #f9c307; 
     border-color: #f9c307; 
+}
+
+.contact-background {
+    background-color: #e6e6e6; 
+    height: 100vh; 
+    display: flex;
 }

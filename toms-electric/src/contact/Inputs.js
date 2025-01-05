@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, Button } from 'reactstrap'; 
+import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, UncontrolledTooltip, Button } from 'reactstrap'; 
 
 class Inputs extends React.Component {
   constructor() {
@@ -88,6 +88,7 @@ class Inputs extends React.Component {
           <Label for="name">Name</Label>
           <Input
             required
+            autoComplete="name"
             id="name"
             name="name"
             placeholder="Enter your full name"
@@ -102,6 +103,7 @@ class Inputs extends React.Component {
           <InputGroup>
           <Input
             required
+            autoComplete="tel-national"
             id="phone"
             name="phone"
             placeholder="(123) 456-7890"
@@ -110,7 +112,7 @@ class Inputs extends React.Component {
             onChange={this.handleInputChangePhone}
             invalid={this.state.isInvalid}
           />
-            <FormFeedback tooltip>
+            <FormFeedback>
               Invalid Phone Number
             </FormFeedback>
             </InputGroup>
@@ -120,6 +122,7 @@ class Inputs extends React.Component {
           <Label for="email">Email</Label>
           <Input
             required
+            autoComplete="email"
             id="email"
             name="email"
             placeholder="user@example.com"
@@ -141,48 +144,74 @@ class Inputs extends React.Component {
           />
         </FormGroup>
         
-        <FormGroup>
-          <Label>Contact Preference</Label>
-
-          <FormGroup check>
-            <Input
-              name="preference"
-              type="radio"
-              value="Email"
-              checked={this.state.preference === 'Email'} 
-              onChange={this.handleRadioChange}
-            />
-            {' '}
-            <Label check>Email</Label>
-          </FormGroup>
-
-          <FormGroup check>
-            <Input
-              name="preference"
-              type="radio"
-              value="Text"
-              checked={this.state.preference === 'Text'} 
-              onChange={this.handleRadioChange}
-            />
-            {' '}
-            <Label check>Text</Label>
-          </FormGroup>
-
-          <FormGroup check>
-            <Input
-              required
-              name="preference"
-              type="radio"
-              value="Call"
-              checked={this.state.preference === 'Call'} 
-              onChange={this.handleRadioChange}
-            />
-            {' '}
-            <Label check>Call</Label>
-          </FormGroup>
-        </FormGroup>
         
-        <Button className="mt-3 submit-btn">
+        <Label>Contact Preference
+          <FormGroup>
+            <FormGroup check>
+              <Input
+                name="preference"
+                type="radio"
+                id="emailRadio"
+                value="Email"
+                checked={this.state.preference === 'Email'} 
+                onChange={this.handleRadioChange}
+              />
+              {' '}
+              <Label check for="emailRadio">Email</Label>
+            </FormGroup>
+
+            <FormGroup check>
+              <Input
+                name="preference"
+                type="radio"
+                id="textRadio"
+                value="Text"
+                checked={this.state.preference === 'Text'} 
+                onChange={this.handleRadioChange}
+              />
+              {' '}
+              <Label check for="textRadio">Text</Label>
+            </FormGroup>
+
+            <FormGroup check>
+              <Input
+                required
+                name="preference"
+                type="radio"
+                id="callRadio"
+                value="Call"
+                checked={this.state.preference === 'Call'} 
+                onChange={this.handleRadioChange}
+              />
+              {' '}
+              <Label check for="callRadio">Call</Label>
+            </FormGroup>
+          </FormGroup>
+        </Label>
+
+        <div>
+          <p>
+            {' '}
+            <span
+              href="#"
+              id="UncontrolledTooltipExample"
+              style={{
+                color: 'blue',
+                textDecoration: 'underline'
+              }}
+            >
+              Privacy Notice
+            </span>
+          </p>
+          <UncontrolledTooltip
+            placement="top"
+            target="UncontrolledTooltipExample"
+          >
+            The information you provide will not be stored and will only be used to contact you regarding your inquiry
+          </UncontrolledTooltip>
+        </div>
+        
+        <Button className="submit-btn block" type="submit">
           Submit
         </Button>
       </Form>
