@@ -238,3 +238,10 @@ h1 {
 .clickable {
     cursor: pointer;
 }
+
+/* Contact */
+
+.submit-btn {
+    background-color: #f9c307; 
+    border-color: #f9c307; 
+}
