@@ -4,8 +4,8 @@ import Inputs from "./Inputs";
 
 function Contact() {
     return(
-        <div className="contact-background">
-            <Container className="mt-5">
+        <div>
+            <Container className="mt-4">
                 <Row className="justify-content-around align-items-start">
                     <Col xs="12" sm="8" lg="4">
                         <Info/>

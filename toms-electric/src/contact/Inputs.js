@@ -82,8 +82,7 @@ class Inputs extends React.Component {
 
   render() {
     return(
-      <Form
-      onSubmit = {this.handleSubmit}>
+      <Form onSubmit = {this.handleSubmit}>
         <FormGroup>
           <Label for="name">Name</Label>
           <Input
@@ -139,6 +138,7 @@ class Inputs extends React.Component {
             id="exampleText"
             name="request"
             type="textarea"
+            placeholder="Describe any services you wish to be done"
             value={this.state.request}
             onChange={this.handleInputChange}
           />

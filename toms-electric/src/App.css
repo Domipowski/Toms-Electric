@@ -23,6 +23,10 @@ h1 {
     display: block; 
 }
 
+body {
+    background-color: #e6e6e6;
+}
+
 /* NavBar */
 
 .nav-bar {
@@ -254,4 +258,8 @@ h1 {
     background-color: #e6e6e6; 
     height: 100vh; 
     display: flex;
+}
+
+.underline {
+    text-decoration: underline;
 }
