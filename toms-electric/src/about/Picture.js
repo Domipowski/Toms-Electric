@@ -1,7 +1,7 @@
 function Picture() {
     return(
         <div>
-            <img src="/headshot.jpg" alt="Headshot" className="headshot"/>
+            <img src="web-style/headshot.jpg" alt="Headshot" className="headshot"/>
         </div>
     ); 
 }

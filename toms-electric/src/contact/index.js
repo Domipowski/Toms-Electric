@@ -5,7 +5,7 @@ import Inputs from "./Inputs";
 function Contact() {
     return(
         <div>
-            <Container className="mt-4">
+            <Container className="mt-4 full-view">
                 <Row className="justify-content-around align-items-start">
                     <Col xs="12" sm="8" lg="4">
                         <Info/>

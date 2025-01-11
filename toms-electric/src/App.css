@@ -173,6 +173,10 @@ body {
 
 /* HomeAbout */
 
+.yellow-background {
+    background-color: #f9c307;
+}
+
 .about-title {
     position: relative; 
     font-family: 'Bebas Neue', sans-serif;
@@ -182,14 +186,13 @@ body {
 
 .about-body {
     position: relative; 
-    font-family: 'Bebas Neue', sans-serif;
     font-size: large; 
     color: white; 
 }
 
 .about-background {
     position: relative; 
-    background-image: url('/public/kitchen_lights.webp');
+    background-image: url('/public/works/kitchen_lights.webp');
     background-size: cover;
     background-position: center;
     height: 100%; 
@@ -233,18 +236,22 @@ body {
 }
 
 .full-view {
-    align-items: start; 
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 .title {
     font-size: xxx-large; 
     text-decoration: underline; 
-    padding-bottom: 2rem;
 }
 
 .clickable {
     cursor: pointer;
+}
+
+.about-text {
+    font-size: large; 
+    color: black; 
 }
 
 /* Contact */
@@ -257,4 +264,12 @@ body {
 
 .underline {
     text-decoration: underline;
+}
+
+/* FooterNotes */
+
+.footer-font {
+    position: relative; 
+    font-size: large; 
+    color: #bfbfbf; 
 }

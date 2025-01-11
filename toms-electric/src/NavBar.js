@@ -12,7 +12,7 @@ function NavBar() {
           
           {/* Logo */}
           <Col xs="12" md="4" className="d-flex align-items-center justify-content-center mb-3 mb-md-0">
-            <img src="/logo_only.png" alt="Tom's Electric Logo" className="logo-size clickable" onClick={() => navigate("")}/>
+            <img src="/web-style/logo_only.png" alt="Tom's Electric Logo" className="logo-size clickable" onClick={() => navigate("")}/>
             <div className="clickable" onClick={() => navigate("")}>
               <h1 className="mb-0">Tom's</h1>
               <h1 className="mb-0">Electric</h1>
@@ -31,9 +31,9 @@ function NavBar() {
             
             <Button 
               className="mx-1 mx-md-2 nav-btns"
-              onClick={() => navigate("/services")}
+              onClick={() => navigate("/gallery")}
             >
-              Services
+              Gallery
             </Button>
             
             <Button 

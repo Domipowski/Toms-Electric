@@ -9,7 +9,7 @@ function Info() {
             <Card>
                 <img
                     alt="Tom's Electric Logo"
-                    src="/logo.png"
+                    src="web-style/logo.png"
                 />
 
                 <CardBody className="alt-background">

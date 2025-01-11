@@ -41,7 +41,7 @@ function Slides() {
             itemClass="carousel-item-padding-40-px"
         >
             <div>
-                <img src="kitchen_lights.webp" alt="Kitchen Lights" className="background-image"/>
+                <img src="works/kitchen_lights.webp" alt="Kitchen Lights" className="background-image"/>
                 <div className="background-darkener"></div> 
 
                 <div className="carousel-content">
@@ -60,7 +60,7 @@ function Slides() {
             </div>
 
             <div>
-                <img src="house_lights.jpg" alt="Outdoor Lighting" className="background-image"/>
+                <img src="works/house_lights.jpg" alt="Outdoor Lighting" className="background-image"/>
                 <div className="background-darkener"></div> 
 
                 <div className="carousel-content">
@@ -74,7 +74,7 @@ function Slides() {
                 </div>
             </div>
             <div>
-                <img src="bathroom_lights.webp" alt="Bathroom Lighting" className="background-image"/>
+                <img src="works/bathroom_lights.webp" alt="Bathroom Lighting" className="background-image"/>
                 <div className="background-darkener"></div> 
 
                 <div className="carousel-content">
@@ -88,7 +88,7 @@ function Slides() {
                 </div>
             </div>
             <div>
-                <img src="electrical_panel.jpg" alt="Electrical Panels" className="background-image"/>
+                <img src="works/electrical_panel.jpg" alt="Electrical Panels" className="background-image"/>
                 <div className="background-darkener"></div> 
 
                 <div className="carousel-content">

@@ -4,9 +4,10 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import NavBar from './NavBar'; 
 import Home from './home'
-import Services from './services'; 
+import Gallery from './gallery'; 
 import About from './about'; 
 import Contact from './contact';
+import FootNotes from './FootNotes';
 
 class App extends React.Component {
   render() {
@@ -16,10 +17,12 @@ class App extends React.Component {
         
         <Routes>
           <Route path="" element = { <Home/> }/>
-          <Route path="/services" element = { <Services/> }/>
+          <Route path="/gallery" element = { <Gallery/> }/>
           <Route path="/about" element = { <About/> }/>
           <Route path="/contact" element = { <Contact/> }/>
         </Routes>
+      
+        <FootNotes/>
       </Router>
     );
   }
