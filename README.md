@@ -23,9 +23,23 @@ Before running the project, make sure you have the following installed:
 
 ### Install Dependencies
 
-1. Clone the repository.
-2. Navigate to the project directory.
+1. Clone the repository 
+2. Navigate to the project directory 
 3. Run the following command to install the necessary dependencies:
 
    ```bash
    npm install
+   ```
+
+## How to Run the Program 
+
+1. Clone the repository and open a new terminal 
+2. Navigate to `Toms-Electric\toms-electric` 
+3. Execute `npm start`
+6. Open a browser and go to `http://localhost:3000` 
+
+## License
+
+MIT License
+
+See [LICENSE](LICENSE) for details 
