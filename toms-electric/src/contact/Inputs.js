@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, UncontrolledTooltip, Button } from 'reactstrap'; 
+import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, Popover, PopoverHeader, PopoverBody, Button, UncontrolledPopover } from 'reactstrap'; 
 
 class Inputs extends React.Component {
   constructor() {
@@ -190,28 +190,31 @@ class Inputs extends React.Component {
         </Label>
 
         <div>
-          <p>
-            {' '}
-            <span
-              href="#"
-              id="UncontrolledTooltipExample"
-              style={{
-                color: 'blue',
-                textDecoration: 'underline'
-              }}
-            >
-              Privacy Notice
-            </span>
-          </p>
-          <UncontrolledTooltip
-            placement="top"
-            target="UncontrolledTooltipExample"
+          <Button
+            id="privacyNotice"
+            type="button"
+            color="secondary"
           >
-            The information you provide will not be stored and will only be used to contact you regarding your inquiry
-          </UncontrolledTooltip>
+            Privacy Notice
+          </Button>
+          <UncontrolledPopover
+            flip
+            target="privacyNotice"
+          >
+            <PopoverHeader>
+              Privacy Notice
+            </PopoverHeader>
+            <PopoverBody>
+            The information you provide will not be stored anywhere and will only be used to contact you regarding your inquiry. 
+            </PopoverBody>
+          </UncontrolledPopover>
         </div>
         
-        <Button className="submit-btn block" type="submit">
+        <Button 
+          className="mt-2 block" 
+          type="submit" 
+          color="warning"
+        >
           Submit
         </Button>
       </Form>

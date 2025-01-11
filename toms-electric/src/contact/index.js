@@ -11,7 +11,7 @@ function Contact() {
                         <Info/>
                     </Col>
 
-                    <Col sm="12" lg="6" className="mb-3">
+                    <Col sm="12" lg="6" className="mt-4 mb-3">
                         <Inputs/>
                     </Col>
                 </Row>
