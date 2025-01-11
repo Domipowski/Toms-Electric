@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, Popover, PopoverHeader, PopoverBody, Button, UncontrolledPopover } from 'reactstrap'; 
+import { Form, FormGroup, FormFeedback, Input, InputGroup, Label, PopoverHeader, PopoverBody, Button, UncontrolledPopover } from 'reactstrap'; 
 
 class Inputs extends React.Component {
   constructor() {
