@@ -19,7 +19,7 @@ Tom's Electric Inc. is a website for a local electrical services company. It inc
 
 Before running the project, make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (>= version X.X.X)
+- [Node.js](https://nodejs.org/) (>= version 22.12.0)
 
 ### Install Dependencies
 
