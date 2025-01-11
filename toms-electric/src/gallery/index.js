@@ -1,7 +1,9 @@
+import Photos from "./Photos"; 
+
 function Gallery() {
     return(
         <div className="full-view">
-            test
+            <Photos/>
         </div>
     ); 
 }
