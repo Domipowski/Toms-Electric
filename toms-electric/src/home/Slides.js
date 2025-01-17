@@ -68,7 +68,11 @@ function Slides() {
                     <hr className="carousel-line" />
                     <div className="carousel-text">Reliable installation of driveway, flood, and garage lighting</div>
 
-                    <Button color="warning" className="carousel-btn">
+                    <Button 
+                        color="warning" 
+                        className="carousel-btn"
+                        onClick={() => navigate("/contact")}
+                    >
                         Contact Me
                     </Button>
                 </div>
@@ -82,7 +86,11 @@ function Slides() {
                     <hr className="carousel-line" />
                     <div className="carousel-text">Professional setup of vanity, overhead, and shower lighting</div>
 
-                    <Button color="warning" className="carousel-btn">
+                    <Button 
+                        color="warning" 
+                        className="carousel-btn"
+                        onClick={() => navigate("/contact")}
+                    >
                         Contact Me
                     </Button>
                 </div>
@@ -96,7 +104,11 @@ function Slides() {
                     <hr className="carousel-line" />
                     <div className="carousel-text">Expert installation, maintenance, and replacement of electrical panels</div>
 
-                    <Button color="warning" className="carousel-btn">
+                    <Button 
+                        color="warning" 
+                        className="carousel-btn"
+                        onClick={() => navigate("/contact")}
+                    >
                         Contact Me
                     </Button>
                 </div>

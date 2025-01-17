@@ -35,20 +35,19 @@ function Info() {
                             </CardText>
                         </div>
                     </ListGroupItem>
+
+                    <ListGroupItem className="text-center alt-background">
+                        <h5 className="underline">Location Details</h5> 
+                        <CardText>
+                            I work in the general Riverhead area, going as far out as SouthHampton, Southold, and Port Jefferson in each respective direction. 
+                        </CardText>
+                    </ListGroupItem>
                     
                     <ListGroupItem className="text-center alt-background">
                         <h5 className="underline">Project Details</h5> 
                         <CardText>
                             To discuss your projects or request an estimate, please complete the form provided with your specific requirements. 
                             Please include the general area you're located in for my planning. 
-                        </CardText>
-                    </ListGroupItem>
-
-                    
-                    <ListGroupItem className="text-center alt-background">
-                        <h5 className="underline">Location Details</h5> 
-                        <CardText>
-                            I work in the general Riverhead area, going as far out as SouthHampton, Southold, and Port Jefferson in each respective direction. 
                         </CardText>
                     </ListGroupItem>
                 </ListGroup>

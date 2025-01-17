@@ -132,7 +132,7 @@ class Inputs extends React.Component {
         </FormGroup>
         
         <FormGroup>
-          <Label for="exampleText">Describe your Request</Label>
+          <Label for="exampleText">Describe your Request and Please Include your General Location</Label>
           <Input
             required
             id="exampleText"
