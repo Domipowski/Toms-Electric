@@ -15,7 +15,7 @@ class App extends React.Component {
       <Router className="relative">
         <NavBar/>
         
-        <Routes>
+        <Routes className="relative">
           <Route path="" element = { <Home/> }/>
           <Route path="/gallery" element = { <Gallery/> }/>
           <Route path="/about" element = { <About/> }/>

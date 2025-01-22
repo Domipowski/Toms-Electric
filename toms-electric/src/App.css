@@ -243,6 +243,7 @@ body {
 .full-view {
     overflow-x: hidden;
     min-height: 100vh; 
+    height: auto; 
 }
 
 .title {
@@ -290,9 +291,7 @@ body {
 
 /* Gallery container */
 .photos-container {
-    max-width: 100%; 
-    margin: 20px;
-    overflow: hidden; 
+    margin: 20px; 
     height: fit-content; 
 }
   
