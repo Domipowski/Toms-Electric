@@ -272,6 +272,19 @@ body {
     text-decoration: underline;
 }
 
+.links-yellow {
+    text-decoration: underline; 
+    color: #D4A006; 
+}
+
+.links-yellow:visited {
+    color: #A57C04; 
+}
+
+.links-yellow:hover {
+    color: #B38605; 
+}
+
 /* FooterNotes */
 
 .footer-font {
@@ -283,7 +296,15 @@ body {
 
 .links {
     text-decoration: underline; 
-    color: inherit; 
+    color: #bfbfbf; 
+}
+
+.links:visited {
+    color: #9f9f9f; 
+}
+
+.links:hover {
+    color: #ffffff; 
 }
 
 

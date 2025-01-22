@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 function Info() {
     return(
         <div>
-            <Card>
+            <Card className="mb-4">
                 <img
                     alt="Tom's Electric Logo"
                     src="web-style/logo.png"
@@ -29,9 +29,12 @@ function Info() {
                 <ListGroup flush>
                     <ListGroupItem className="alt-background">
                         <div className="text-center">
-                            <h5 className="underline">Hours of Operation</h5> 
+                            <h5 className="underline">Buisness Hours</h5> 
                             <CardText>
-                                Our hours vary by weekday. We are closed on weekends. For urgent matters, please contact me directly. 
+                                We are available to respond to inquiries on weekdays from 8:00 AM to 6:00 PM.
+                                Our office is closed on weekends.
+                                For urgent matters, please contact me directly. 
+                                Otherwise, feel free to fill out the provided form, and we will get back to you during business hours.              
                             </CardText>
                         </div>
                     </ListGroupItem>
@@ -39,7 +42,11 @@ function Info() {
                     <ListGroupItem className="text-center alt-background">
                         <h5 className="underline">Location Details</h5> 
                         <CardText>
-                            I work in the general Riverhead area, going as far out as SouthHampton, Southold, and Port Jefferson in each respective direction. 
+                            Our business is based in Riverhead, New York. 
+                            As a&nbsp;
+                            <a href="https://example.com/" target="_blank" rel="noopener noreferrer" className="links-yellow">Liscenced Master Electrician</a> 
+                            &nbsp;in Suffolk County, I serve local clients within the area.
+                            Please note that we focus on providing services to select parts of Suffolk County so please contact us to confirm if we can assist you. 
                         </CardText>
                     </ListGroupItem>
                     
@@ -47,7 +54,7 @@ function Info() {
                         <h5 className="underline">Project Details</h5> 
                         <CardText>
                             To discuss your projects or request an estimate, please complete the form provided with your specific requirements. 
-                            Please include the general area you're located in for my planning. 
+                            Be sure to include your general location to help with planning. 
                         </CardText>
                     </ListGroupItem>
                 </ListGroup>
