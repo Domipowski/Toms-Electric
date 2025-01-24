@@ -1,11 +1,6 @@
 # Tom's Electric Inc. 
 
-Tom's Electric Inc. is a website for a local electrical services company. It includes a list of services, a contact form, and a gallery of completed projects. Users can easily find information and get in touch for quotes and consultations. 
-
-# To Do: 
-- Update reame v1.0 
-- Update Line 3 
-- Create Email and verify it matches with the site 
+Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of services, a contact form, and a gallery of completed projects. Users can easily find information and get in touch for quotes and consultations. 
 
 ## Developers 
 
@@ -13,12 +8,10 @@ Tom's Electric Inc. is a website for a local electrical services company. It inc
 
 ## Version History 
 
-## **v1.0** 
+### **v1.0 | Deployment** 
 
-**Deployement** 
-
-- Deployed on January 23th, 2025 
-- URL: tbd 
+- Deployed on January 24th, 2025 at 3:22 PM
+- URL: [toms-electric.com](https://toms-electric.com/)
 
 ## Prerequisites
 
