@@ -80,6 +80,16 @@ body {
     z-index: 0; 
 }
 
+.background-darkener-more {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 0; 
+}
+
 /* Carousel */
 
 .carousel-content {
@@ -197,7 +207,7 @@ body {
 
 .about-background {
     position: relative; 
-    background-image: url('/public/works/kitchen_lights.webp');
+    background-image: url('/public/works/Pool_Panel.jpg');
     background-size: cover;
     background-position: center;
     height: 100%; 

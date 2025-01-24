@@ -4,12 +4,12 @@ import { Col } from 'reactstrap';
 function HomeAbout() {
     return(
         <div className="d-flex justify-content-center text-center about-background py-5">
-            <div className="background-darkener"></div> 
+            <div className="background-darkener-more"></div> 
             <Col xs="11" md="8">
                 <div className="about-title">
                     Tom's Electric Inc.
                 </div>
-                <div className="about-body">
+                <div className="mt-2 about-body">
                     At Tom's Electric Inc., you'll work directly with me, Tomasz Polakowski, a licensed master electrician based in Suffolk County. 
                     As a one-person operation, I take pride in personally handling every aspect of your electrical project, from the initial consultation to the final touches.
                 </div>

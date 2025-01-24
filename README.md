@@ -5,7 +5,6 @@ Tom's Electric Inc. is a website for a local electrical services company. It inc
 # To Do: 
 - Update reame v1.0 
 - Update Line 3 
-- Link to master electrician website in Footnotes and contact/info
 - Pictures in Slides 
 - Picture in HomeAbout 
 - All Gallery Pictures 
