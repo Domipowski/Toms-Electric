@@ -2,8 +2,12 @@ function Text() {
     return(
         <div className="margin">
             <h1 className="mb-2 title">About Tom's Electric</h1>
-            <div className="pt-0 about-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies suscipit quam. Praesent ornare arcu a magna commodo, a lacinia nisi mollis. Suspendisse potenti. Morbi scelerisque quam vel sapien tristique ultricies. Mauris vel ultricies diam, at dictum ex. Maecenas aliquam ipsum lacus, ac tristique massa tempor eu. Aliquam sit amet orci sem. Suspendisse a tristique turpis, ac gravida ipsum. Vivamus consectetur dui ipsum, id lobortis risus tristique nec. Suspendisse sed suscipit quam. Nam ut urna nisi. Mauris feugiat nunc eget massa hendrerit, eu finibus dui dignissim. In hac habitasse platea dictumst. Morbi non mattis diam. Nulla viverra vitae tortor ut imperdiet.
+            <div className="mb-5 pt-0 about-text">
+                Tom is a licensed master electrician with over 19 years of experience, specializing in residential installations, panel upgrades, and specialty services.
+                With a passion for delivering high-quality, reliable services, he founded Tom's Electric Inc. to provide personalized electrical solutions to the Suffolk County area.
+                As a solo operator, Tom personally manages every project, ensuring that each job is completed to the highest standards.
+                His commitment to excellence and customer satisfaction sets him apart—he takes pride in offering practical solutions, educating clients, and building lasting relationships.
+                Tom was born and raised in Poland, which has fostered a strong connection to the local Polish community and its traditions.       
             </div>
         </div>
     )
