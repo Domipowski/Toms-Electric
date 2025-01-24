@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - cd toms-electric
         - npm ci 
     build:
       commands:
