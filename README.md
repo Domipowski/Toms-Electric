@@ -22,7 +22,7 @@ Tom's Electric Inc. is a website for a local electrical services company. It inc
 
 **Deployement** 
 
-- Deployed on January 10th, 2025 
+- Deployed on January 23th, 2025 
 - URL: tbd 
 
 ## Prerequisites

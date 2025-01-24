@@ -9,7 +9,7 @@ function FootNotes() {
                 </Col>
                 <Col xs="12" sm="12" md="12" lg="4" className="mb-2"> 
                     <a 
-                        href="https://example.com/" 
+                        href="https://ca.suffolkcountyny.gov/dcasearch" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="links"

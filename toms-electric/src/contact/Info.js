@@ -44,7 +44,7 @@ function Info() {
                         <CardText>
                             Our business is based in Riverhead, New York. 
                             As a&nbsp;
-                            <a href="https://example.com/" target="_blank" rel="noopener noreferrer" className="links-yellow">Liscenced Master Electrician</a> 
+                            <a href="https://ca.suffolkcountyny.gov/dcasearch" target="_blank" rel="noopener noreferrer" className="links-yellow">Liscenced Master Electrician</a> 
                             &nbsp;in Suffolk County, I serve local clients within the area.
                             Please note that we focus on providing services to select parts of Suffolk County so please contact us to confirm if we can assist you. 
                         </CardText>
