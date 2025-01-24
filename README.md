@@ -13,6 +13,12 @@ Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of s
 - Deployed on January 24th, 2025 at 3:22 PM
 - URL: [toms-electric.com](https://toms-electric.com/)
 
+### **v1.1 | Minor Changes** 
+
+- Phone Number and Email changed 
+- Website title changed to "Tom's Electric Inc." 
+- 
+
 ## Prerequisites
 
 Before running the project, make sure you have the following installed:

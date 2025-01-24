@@ -10,13 +10,13 @@ function ContactInfo() {
                 {/* Left/Top */}
                 <Col xs="12" md="4" className="text-center cell-one">
                     <h1 className="contact-name"><FaPhoneAlt/></h1>
-                    <h1 className="contact-info">(631) 977-2025</h1>
+                    <h1 className="contact-info">(631) 860-3627</h1>
                 </Col>
 
                 {/* Right/Bottom */}
                 <Col xs="12" md="4" className="text-center cell-two">
                     <h1 className="contact-name"><MdEmail/></h1>
-                    <h1 className="contact-info">contact@tomselectric.com</h1> 
+                    <h1 className="contact-info">tomselectric@mail.com</h1> 
                 </Col>
             </Row>
         </Container>

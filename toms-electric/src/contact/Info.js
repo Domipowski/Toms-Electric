@@ -18,7 +18,7 @@ function Info() {
                     </CardTitle>
 
                     <CardTitle tag="h5" className="text-center">
-                        <MdEmail /> contact@tomselectric.com 
+                        <MdEmail /> tomselectric@mail.com 
                     </CardTitle>
 
                     <CardTitle tag="h5" className="text-center">
