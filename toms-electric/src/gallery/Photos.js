@@ -4,7 +4,7 @@ import Masonry from "react-masonry-css";
 function Photos() {
     const images = [
         { src: "works/Pool_Panel.jpg", alt: "Pool Panel" },
-        { src: "works/Bathroom_Lights_1.avif", alt: "Bathroom Lights" },
+        { src: "works/Bathroom_Lights_1.jpg", alt: "Bathroom Lights" },
         { src: "works/EV_Charger.jpg", alt: "EV Charger" },
         { src: "works/Floor_Heat.jpg", alt: "Floor Heat" }, 
         { src: "works/Kitchen_1.jpg", alt: "Kitchen 1" },

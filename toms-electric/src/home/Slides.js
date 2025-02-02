@@ -78,7 +78,7 @@ function Slides() {
                 </div>
             </div>
             <div>
-                <img src="works/Bathroom_Lights_1.avif" alt="Bathroom Lighting" className="background-image"/>
+                <img src="works/Bathroom_Lights_1.jpg" alt="Bathroom Lighting" className="background-image"/>
                 <div className="background-darkener"></div> 
 
                 <div className="carousel-content">

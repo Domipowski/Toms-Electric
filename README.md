@@ -17,6 +17,9 @@ Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of s
 
 - Phone Number and Email changed 
 - Website title changed to "Tom's Electric Inc." 
+- Website Logo changed to Tom's Electric Logo 
+- Website description on web search changed 
+- Bathroom Image fixed displaying improperly 
 - 
 
 ## Prerequisites
