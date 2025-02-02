@@ -20,7 +20,7 @@ Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of s
 - Website Logo changed to Tom's Electric Logo 
 - Website description on web search changed 
 - Bathroom Image fixed displaying improperly 
-- 
+- Custom Favicon and Logo icons 
 
 ## Prerequisites
 
