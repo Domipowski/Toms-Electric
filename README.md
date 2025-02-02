@@ -1,10 +1,20 @@
 # Tom's Electric Inc. 
 
-Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of services, a contact form, and a gallery of completed projects. Users can easily find information and get in touch for quotes and consultations. 
+Tom's Electric Inc. is a professional website built for a licensed master electrician's business. The site provides a clean, user-friendly experience where potential clients can explore available services, view completed projects, and easily get in touch through a contact form. Designed with modern web technologies, the website ensures accessibility, responsiveness, and a professional online presence. 
+
+## Technologies Used 
+
+React, React Router, Reactstrap, Bootstrap, Node.js, 
+
+## Deployment 
+
+AWS Amplify, Route 53
+
 
 ## Developers 
 
 - Dominick Polakowski 
+
 
 ## Version History 
 
@@ -22,11 +32,12 @@ Tom's Electric Inc. is a website for Tom's Electric Inc. It includes a list of s
 - Bathroom image fixed displaying improperly 
 - Custom Favicon and Logo icons 
 
+
 ## Prerequisites
 
 Before running the project, make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (>= version 22.12.0)
+- [Node.js](https://nodejs.org/) (>= version 22.11.0)
 
 ### Install Dependencies
 
@@ -38,12 +49,14 @@ Before running the project, make sure you have the following installed:
    npm install
    ```
 
+
 ## How to Run the Program 
 
 1. Clone the repository and open a new terminal 
 2. Navigate to `Toms-Electric\toms-electric` 
 3. Execute `npm start`
 6. Open a browser and go to `http://localhost:3000` 
+
 
 ## License
 
