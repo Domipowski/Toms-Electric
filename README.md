@@ -18,7 +18,7 @@ AWS Amplify, Route 53
 
 ## Version History 
 
-### **v1.0 | Deployment** 
+### **v1.0 | Initial Deployment** 
 
 - <strong>Deployment Date</strong>: January 24th, 2025, at 3:22 PM 
 - <strong>Live URL </strong>: [toms-electric.com](https://toms-electric.com/) 
