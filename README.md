@@ -4,7 +4,7 @@ Tom's Electric Inc. is a professional website built for a licensed master electr
 
 ## Technologies Used 
 
-React, React Router, Reactstrap, Bootstrap, Node.js, 
+React, React Router, Reactstrap, Bootstrap, Node.js 
 
 ## Deployment 
 
@@ -20,17 +20,17 @@ AWS Amplify, Route 53
 
 ### **v1.0 | Deployment** 
 
-- <strong>Deployment Date</strong>: January 24th, 2025, at 3:22 PM.
+- <strong>Deployment Date</strong>: January 24th, 2025, at 3:22 PM 
 - <strong>Live URL </strong>: [toms-electric.com](https://toms-electric.com/) 
 
 ### **v1.1 | Minor Changes** 
 
-- <strong>Corrected Contact Information</strong>: Updated phone number and email.
-- <strong>Title Update</strong>: Website title changed to "Tom's Electric Inc."
-- <strong>Logo Update</strong>: Replaced with the official "Tom's Electric Logo."
-- <strong>Search Engine Description</strong>: Website description on search engines updated for better SEO.
-- <strong>Image Fix</strong>: Fixed display issue with the bathroom image.
-- <strong>Favicon and Icons</strong>: Custom favicon and logo icons added for better branding.
+- <strong>Corrected Contact Information</strong>: Updated phone number and email 
+- <strong>Title Update</strong>: Website title changed to "Tom's Electric Inc." 
+- <strong>Logo Update</strong>: Replaced with the official "Tom's Electric Logo" 
+- <strong>Search Engine Description</strong>: Website description on search engines updated for better SEO 
+- <strong>Image Fix</strong>: Fixed display issue with the bathroom image 
+- <strong>Favicon and Icons</strong>: Custom favicon and logo icons added for better branding 
 
 
 ## Prerequisites
